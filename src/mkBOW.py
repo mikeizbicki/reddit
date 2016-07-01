@@ -40,6 +40,3 @@ counts = vectorizer.fit_transform(
 
 print "saving matrix"
 scipy.io.savemat(sys.argv[1]+".mat", {"counts":counts})
-
-#print counts.shape
-#print counts
